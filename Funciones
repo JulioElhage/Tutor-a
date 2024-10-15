@@ -1,0 +1,39 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+
+float volumen_cilindro(float r, float a);
+
+int main() {
+    float radio, altura, volumen;
+
+    cout << "Ingrese el radio: "; 
+    cin >> radio;
+
+    cout << "Ingrese la altura: ";
+    cin >> altura;
+
+    volumen = volumen_cilindro(radio, altura);
+
+    cout << "El Volumen es: " << volumen << endl;
+
+    return 0;
+}
+
+float volumen_cilindro (float r, float a) 
+
+{    float v = M_PI * r * r * a; 
+   
+return v;
+
+    
+}
+    
+    
+
+    
+    
+    
+    
